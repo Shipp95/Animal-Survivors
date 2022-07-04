@@ -1,0 +1,388 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.25145) 64bit Professional' Language: 'pl' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/Create with code/My Personal Project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58627
+Successfully changed project path to: E:/Create with code/My Personal Project
+E:/Create with code/My Personal Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 89.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Create with code/My Personal Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8151 MB
+    Driver:   31.0.12001.2008
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009699 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 86.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (620ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (447ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004840 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Create with code\My Personal Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Create with code\My Personal Project\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Domain Reload Profiling:
+	ReloadAssembly (957ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (353ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3760 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (124.3 KB). Loaded Objects now: 4244.
+Memory consumption went from 150.2 MB to 150.0 MB.
+Total: 3.396400 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.097700 ms MarkObjects: 2.882500 ms  DeleteObjects: 0.134900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83496.970598 seconds.
+  path: Assets/AddOns/MgLEGO Moody Skies/Textures/Skyboxes/Night Front.png
+  artifactKey: Guid(939b12c4658c04b69aaef2ad301aeb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/MgLEGO Moody Skies/Textures/Skyboxes/Night Front.png using Guid(939b12c4658c04b69aaef2ad301aeb58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c8b4d1bfd59be65f786c30c9de0cf3') in 0.093723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.028034 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs
+  artifactKey: Guid(5d7afd997a23ea24aba032f389b75823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs using Guid(5d7afd997a23ea24aba032f389b75823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbe49de381e1ff93668a4e2e3f197f6') in 0.010483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.215046 seconds.
+  path: Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/ScytheV1.prefab
+  artifactKey: Guid(6d5c973482b67d04e8b5574a2dc815a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Alstra Infinite/Tool Set - PolyPack/Prefabs/ScytheV1.prefab using Guid(6d5c973482b67d04e8b5574a2dc815a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2da988aea7e415e175f94d36474d95') in 0.071080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.969416 seconds.
+  path: Assets/Course Library/_Source_Files/FBX/SM_Prop_Bomb_01.fbx
+  artifactKey: Guid(5b0eedd9207590f40b02a2b89172c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/FBX/SM_Prop_Bomb_01.fbx using Guid(5b0eedd9207590f40b02a2b89172c391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c740f0fdd96a79d492e82f9c193b9c') in 0.158681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.651239 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/Emissive_01.png
+  artifactKey: Guid(ed8c76cfaa7f4f04da86bd288543e61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/Emissive_01.png using Guid(ed8c76cfaa7f4f04da86bd288543e61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7aec23fa2d5f413b1ceb70b60c85c5') in 0.019186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png
+  artifactKey: Guid(bde8e4ecd0b2f344bb3b0d5bc6f7fc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersDaughter_White.png using Guid(bde8e4ecd0b2f344bb3b0d5bc6f7fc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53eaa0f70f9d1fbc0c6c1dc2877f21e') in 0.019455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_White.png
+  artifactKey: Guid(fe1471620c6980246afa8143d135e9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimplePeople_Doctor_White.png using Guid(fe1471620c6980246afa8143d135e9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adab8cb0b525bcc781f1f6fd4faefc5e') in 0.020519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimpleForestAnimalsTexture.png
+  artifactKey: Guid(0e3dc26e089775e48968e91f860ff20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimpleForestAnimalsTexture.png using Guid(0e3dc26e089775e48968e91f860ff20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c8539b0fc978fabb09806a2ff274c0') in 0.017573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png
+  artifactKey: Guid(1d2be5615bea5d44f97a1c40b5c11815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimpleFarmer_FarmersWife_Black.png using Guid(1d2be5615bea5d44f97a1c40b5c11815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db953ce21260ee99a82a65a1b3cbd998') in 0.020622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_White.png
+  artifactKey: Guid(dd192c6007229f84ca5ebc4ef9236d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_White.png using Guid(dd192c6007229f84ca5ebc4ef9236d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25500072b95e5b9833925f3df02c31a7') in 0.017516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png
+  artifactKey: Guid(b5439d586ec428a40aef081b40d65655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_White.png using Guid(b5439d586ec428a40aef081b40d65655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ad4b049f285b3aaa251240fc9df7f3') in 0.017777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimplePort.png
+  artifactKey: Guid(eddd954894fbf3c42aedd49856d24e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimplePort.png using Guid(eddd954894fbf3c42aedd49856d24e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a3c3af3f2d890541517c6b90c8c2e2') in 0.022607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Brown.png
+  artifactKey: Guid(5d6795382a9cf8e45a68ba4346c66efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_Brown.png using Guid(5d6795382a9cf8e45a68ba4346c66efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa4d69bcf5e69f57ea2c3c3d3c86cb2') in 0.018515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimpleDogs.png
+  artifactKey: Guid(9430bf83a61e53642891d8823882b08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimpleDogs.png using Guid(9430bf83a61e53642891d8823882b08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddcb6132a31500d80dca87c024e46a3') in 0.016873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Brown.png
+  artifactKey: Guid(0000894bdf64f1b468a3c75f66de34ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimplePeople_Waitress_Brown.png using Guid(0000894bdf64f1b468a3c75f66de34ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95983f518deae489aefb8fe619a18e27') in 0.016550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_White.png
+  artifactKey: Guid(06e19e958dfa37642ae5619bedf35920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_White.png using Guid(06e19e958dfa37642ae5619bedf35920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d8047f7a6ca9f32942be75e77555e6') in 0.017475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_White.png
+  artifactKey: Guid(12e281a5b44dcce4393d675312775b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimplePeople_BusinessMan_White.png using Guid(12e281a5b44dcce4393d675312775b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe89974df2841303ba4701bcb04825c5') in 0.016798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Brown.png
+  artifactKey: Guid(a97b265ea09bf7c45b1ad1dc247ab689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Brown.png using Guid(a97b265ea09bf7c45b1ad1dc247ab689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa5526719f6c1735eb6cb5d13bfc9a1') in 0.016208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Black.png
+  artifactKey: Guid(9d815fed57ec7fe40a9d89cd5a708ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimplePeople_RoadWorker_Black.png using Guid(9d815fed57ec7fe40a9d89cd5a708ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c115d19a60290c43aa0511ea8e57d9') in 0.018743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/Skybox_Diff.png
+  artifactKey: Guid(1202e6a7c7a1de2499a2c339a4382c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/Skybox_Diff.png using Guid(1202e6a7c7a1de2499a2c339a4382c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2a638689a1c8f9abe644655303dc42') in 0.018054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png
+  artifactKey: Guid(8fddee26d7af656469060882f739f16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimpleFarmer_Farmer_Black.png using Guid(8fddee26d7af656469060882f739f16a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80be728cd32d06966082c2980864345f') in 0.016525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Brown.png
+  artifactKey: Guid(be907f43491cbfb488b6f7d8b273fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Textures/SimplePeople_Punk_Brown.png using Guid(be907f43491cbfb488b6f7d8b273fb69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468fbf4f5fb089bacacbc702eaa776aa') in 0.018024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.242656 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/Military_Green.mat
+  artifactKey: Guid(7bc72f97a09670a4f9b072e70f88f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/Military_Green.mat using Guid(7bc72f97a09670a4f9b072e70f88f4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41c7a45b1e74ea211eeeb5974478b0f') in 0.047650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat
+  artifactKey: Guid(f98c6192bf2545644bb912bfaf19f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Black.mat using Guid(f98c6192bf2545644bb912bfaf19f832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3aa94940b4a47baf3d82273c1e7424') in 0.018472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Brown.mat
+  artifactKey: Guid(848858d55d6e52e46a6c23cbb76aa006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_Brown.mat using Guid(848858d55d6e52e46a6c23cbb76aa006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ab00995365ef2d53799857c39e61e1') in 0.028690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat
+  artifactKey: Guid(41680dad0f0243748b4e228f49a2e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/PolygonPrototype_Texture_01.mat using Guid(41680dad0f0243748b4e228f49a2e3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ad02842e4b9fda44c2058619e5e93e') in 0.019864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat
+  artifactKey: Guid(6bc0b76677d86c84bae40c11173940a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat using Guid(6bc0b76677d86c84bae40c11173940a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62b9c2c4146446e4d56bdd01ad5b6ef') in 0.017392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat
+  artifactKey: Guid(5a3559dc71a3dee46a71f5627f48bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleDogs.mat using Guid(5a3559dc71a3dee46a71f5627f48bb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f261184d55ce7863833dc8e6bca431d') in 0.028636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimplePeople_BeachBabe_Black.mat
+  artifactKey: Guid(a40e1f49699c0da4b878646e3acdfad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimplePeople_BeachBabe_Black.mat using Guid(a40e1f49699c0da4b878646e3acdfad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e83d3f12faf43dfdd546e45c15039c') in 0.026211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_White.mat
+  artifactKey: Guid(497bbddce010fea4da3dcb5c5210ad16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_White.mat using Guid(497bbddce010fea4da3dcb5c5210ad16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a109ec37929d799606ceb1acd41bd2fc') in 0.027439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_White.mat
+  artifactKey: Guid(34c2d8b1b19253547badb55d82bb8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimplePeople_Punk_White.mat using Guid(34c2d8b1b19253547badb55d82bb8103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87616586beba36a59a6d5f4f43a9e08d') in 0.027086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimplePort.mat
+  artifactKey: Guid(46f69b2efbd76a744906e46f98d0e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimplePort.mat using Guid(46f69b2efbd76a744906e46f98d0e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064b6fb8afab6cb5a9c613950bdb5c59') in 0.029079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleSky.mat
+  artifactKey: Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleSky.mat using Guid(e68f77e240a7f8643b5cc4253dc37516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e185e38ad279e41c5487b35e7f9df4') in 0.031416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Black.mat
+  artifactKey: Guid(632309c76598ef2439d70d47bb507f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimplePeople_BusinessMan_Black.mat using Guid(632309c76598ef2439d70d47bb507f87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c467afecf5374c07efe0f8e9a04abce') in 0.026956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleItems.mat
+  artifactKey: Guid(dc043a9656f81bc488510dcda2b382ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleItems.mat using Guid(dc043a9656f81bc488510dcda2b382ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a98c052bf3559d9f4c7a74bb3180da') in 0.026301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleTown.mat
+  artifactKey: Guid(7cce38ba40b7d05439de10ddde5afaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleTown.mat using Guid(7cce38ba40b7d05439de10ddde5afaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9383c5eff0997b7912ec4abd7eaf8921') in 0.026568 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
